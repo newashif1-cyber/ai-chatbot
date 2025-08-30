@@ -60,3 +60,12 @@ pnpm dev
 ```
 
 Your app template should now be running on [localhost:3000](http://localhost:3000).
+
+# Initialize git repo
+git init
+git add .
+git commit -m "Initial commit - Polytechnic Papers clone"
+
+# Push to GitHub/GitLab
+git remote add origin <your-repo-url>
+git push -u origin main
